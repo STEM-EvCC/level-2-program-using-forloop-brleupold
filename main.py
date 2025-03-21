@@ -20,10 +20,10 @@ rate = (sucessful_missions / total_missions) * 100
 
 print()
 print(f"Total number of sucessful missions: {total_missions}")
-print(f"Number of sucessful missions:{sucessful_missions}")
-print(f"Success rate:{rate:.4}%")
+print(f"Number of sucessful missions: {sucessful_missions}")
+print(f"Success rate: {rate:.4}%")
 print("Missions launched before the year 2000:")
 
 for i in range(1,len(pre_2000)):
-    print(f"\t -{pre_2000[i]}")
+    print(f" -{pre_2000[i]}")
 
